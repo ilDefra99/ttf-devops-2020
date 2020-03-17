@@ -1,8 +1,21 @@
 import colorConverter from 'color-convert'
+import { TtfHsl, TtfRgb } from "../../../commons/src/model/Color"
+import fetch from "node-fetch";
 
-//TODO
-export function convert(color: ColorModel): ColorModel {
-    const colorToConvert: ColorModel = {};
-    const convertedColor = colorConverter;
-    return {} as ColorModel;
+export async function convert(color: TtfHsl): Promise<TtfRgb> {
+    const colorToConvert: TtfHsl = color;
+    const convertedColor = await callApis(colorToConvert)
+    return convertedColor as TtfRgb;
+}
+
+const callApis = async(color: TtfHsl):Promise<any>=>{
+    try{
+        let response = await fetch("http://localhost/HSLtoHEX?color="+JSON.stringify(color))
+        let data = await response.json();
+        try{
+            let response2 = await fetch("http://localhost/HEXtoRGB?color="+JSON.stringify(data))
+            let data2 = await response2.json();
+            return data2
+        }catch(err2){console.error(err2)}
+    }catch(err){console.error(err)}
 }
