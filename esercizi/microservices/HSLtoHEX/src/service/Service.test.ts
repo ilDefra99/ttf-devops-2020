@@ -1,14 +1,14 @@
 import chai from 'chai';
 import {convert} from './Service';
+import { hsl2hexTestData } from "../../../commons/src/test-data/colors"
 
 chai.config.includeStack = true;
 const should = chai.should();
 
-//TODO
 describe('test suite description', () => {
-    testData.forEach((test) => {
+    hsl2hexTestData.forEach((test) => {
         it(`test case description`, () => {
-            convert(test.input).should.deep.equal(test.expected);
+            convert(test.hslValue).should.deep.equal(test.hexValue);
         });
     });
 });
