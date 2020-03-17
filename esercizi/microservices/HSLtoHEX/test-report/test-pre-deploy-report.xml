@@ -1,22 +1,22 @@
 <testsuites name="Mocha Tests">
-  <testsuite name="REST API test suite description" tests="9" errors="0" failures="0" skipped="0" timestamp="2020-03-17T15:25:50" time="0.061">
-    <testcase classname="REST API test suite description" name="test case description" time="0.038">
+  <testsuite name="REST API test suite description" tests="9" errors="0" failures="0" skipped="0" timestamp="2020-03-17T15:34:32" time="0.089">
+    <testcase classname="REST API test suite description" name="test case description" time="0.035">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.003">
+    <testcase classname="REST API test suite description" name="test case description" time="0.007">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    <testcase classname="REST API test suite description" name="test case description" time="0.005">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    <testcase classname="REST API test suite description" name="test case description" time="0.005">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    <testcase classname="REST API test suite description" name="test case description" time="0.005">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    <testcase classname="REST API test suite description" name="test case description" time="0.004">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    <testcase classname="REST API test suite description" name="test case description" time="0.005">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    <testcase classname="REST API test suite description" name="test case description" time="0.005">
     </testcase>
-    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    <testcase classname="REST API test suite description" name="test case description" time="0.009">
     </testcase>
   </testsuite>
 </testsuites>
