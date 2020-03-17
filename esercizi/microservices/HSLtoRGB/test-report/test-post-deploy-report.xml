@@ -1,20 +1,20 @@
 <testsuites name="Mocha Tests">
-  <testsuite name="test suite description" tests="9" errors="0" failures="0" skipped="0" timestamp="2020-03-17T16:40:27" time="0.172">
-    <testcase classname="test suite description" name="test case description" time="0.037">
+  <testsuite name="test suite description" tests="9" errors="0" failures="0" skipped="0" timestamp="2020-03-17T16:52:27" time="0.233">
+    <testcase classname="test suite description" name="test case description" time="0.071">
     </testcase>
-    <testcase classname="test suite description" name="test case description" time="0.01">
+    <testcase classname="test suite description" name="test case description" time="0.024">
     </testcase>
-    <testcase classname="test suite description" name="test case description" time="0.02">
+    <testcase classname="test suite description" name="test case description" time="0.027">
     </testcase>
-    <testcase classname="test suite description" name="test case description" time="0.021">
+    <testcase classname="test suite description" name="test case description" time="0.015">
     </testcase>
-    <testcase classname="test suite description" name="test case description" time="0.014">
-    </testcase>
-    <testcase classname="test suite description" name="test case description" time="0.012">
+    <testcase classname="test suite description" name="test case description" time="0.016">
     </testcase>
     <testcase classname="test suite description" name="test case description" time="0.018">
     </testcase>
-    <testcase classname="test suite description" name="test case description" time="0.016">
+    <testcase classname="test suite description" name="test case description" time="0.017">
+    </testcase>
+    <testcase classname="test suite description" name="test case description" time="0.019">
     </testcase>
     <testcase classname="test suite description" name="test case description" time="0.016">
     </testcase>

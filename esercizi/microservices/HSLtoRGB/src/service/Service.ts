@@ -10,10 +10,10 @@ export async function convert(color: TtfHsl): Promise<TtfRgb> {
 
 const callApis = async(color: TtfHsl):Promise<any>=>{
     try{
-        let response = await fetch("http://localhost/HSLtoHEX?color="+JSON.stringify(color))
+        let response = await fetch("http://HSLtoHEX:3000?color="+JSON.stringify(color))
         let data = await response.json();
         try{
-            let response2 = await fetch("http://localhost/HEXtoRGB?color="+JSON.stringify(data))
+            let response2 = await fetch("http://HEXtoRGB:3000?color="+JSON.stringify(data))
             let data2 = await response2.json();
             return data2
         }catch(err2){console.error(err2)}
