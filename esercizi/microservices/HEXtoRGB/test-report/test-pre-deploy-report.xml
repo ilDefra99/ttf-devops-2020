@@ -1,0 +1,22 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="REST API test suite description" tests="9" errors="0" failures="0" skipped="0" timestamp="2020-03-17T14:03:27" time="0.075">
+    <testcase classname="REST API test suite description" name="test case description" time="0.053">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.004">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.001">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    </testcase>
+    <testcase classname="REST API test suite description" name="test case description" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
