@@ -1,7 +1,6 @@
 import colorConverter from 'color-convert'
 import { TtfRgb, TtfHex } from "../../../commons/src/model/Color"
 
-//TODO
 export function convert(color: TtfHex): TtfRgb {
     const colorToConvert: TtfHex = color;
     const convertedColor = colorConverter.hex.rgb(colorToConvert.hex);
