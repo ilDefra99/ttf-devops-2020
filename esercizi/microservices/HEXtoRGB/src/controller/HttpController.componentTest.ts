@@ -8,7 +8,7 @@ const should = chai.should();
 chai.use(chaiHttp);
 
 describe('REST API test suite description', () => {
-    const url = process.env.npm_config_rgb2hex_test_url || `http://localhost:${config.port}`;
+    const url = process.env.npm_config_rgb2hex_test_url || `http://localhost/HEXtoRGB`;
     console.log('Test URL: ' + url);
 
     hex2rgbTestData.forEach((test) => {
