@@ -12,7 +12,7 @@ services:
     depends_on:
       - HEXtoRGB
       - HSLtoHEX
-      #- HSLtoRGB
+      - HSLtoRGB
 
   HEXtoRGB:
     image: hex2rgb
